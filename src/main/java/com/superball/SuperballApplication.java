@@ -26,6 +26,7 @@ public class SuperballApplication {
 				admin.setNickname("admin");
 				admin.setPassword(passwordEncoder.encode("admin12321"));
 				admin.setRole("ADMIN");
+				admin.setProfileImageUrl("https://imgs.search.brave.com/vTJQvVyvKi6YFxtaaqeVSEw0CTWdBUpcwogaP5o21PI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni84ODkvODg5NzM5/LnBuZz9zZW10PWFp/c193aGl0ZV9sYWJl/bA");
 				admin.setVerified(true);
 				userRepository.save(admin);
 			}
